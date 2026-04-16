@@ -1,5 +1,3 @@
-# Place this file on the home directory
-
 root = true
 
 [*]
@@ -42,7 +40,7 @@ trim_trailing_whitespace = true
 insert_final_newline = true
 end_of_line = lf
 
-[*.{json,yml,yaml,toml,xml}]
+[*.{json,yml,yaml,toml,xml,md}]
 indent_style = space
 indent_size = 2
 tab_width = 2
