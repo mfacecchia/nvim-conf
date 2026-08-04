@@ -1,0 +1,7 @@
+root = false
+
+# Such configuration file contains the header string, which
+# MUST contain trailing whitespaces for the plugin to output it correctly
+[lua/plugins/snacks.lua]
+trim_trailing_whitespace = unset
+
