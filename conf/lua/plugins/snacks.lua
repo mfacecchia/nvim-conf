@@ -65,7 +65,7 @@ return {
           title = "Git status",
           section = "terminal",
           enabled = true,
-          cmd = "git status --short --branch --renames",
+          cmd = "git status --short --branch --renames 2> /dev/null || echo 'Not a Git repository. Run \"git init\" to create one.'",
           height = 5,
           padding = 1,
           ttl = 5 * 60,
